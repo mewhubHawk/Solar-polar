@@ -1,74 +1,176 @@
 <!DOCTYPE html>
+
 <html lang="en" >
 
+
 <head>
+
   <meta charset="UTF-8">
-  <title>An Anonymous Pen on CodePen</title>
-  
-  
-  
-  
-  
+
+  <title>Solar-polar by Katia</title>
+
+
+
 </head>
+
+
 
 <body>
 
-  <svg height="1000" width="1000">
-  
-  <polygon points="0,0 0,1000 1000,1000 1000,0" fill="black"/>
-<!-- sun -->
-  <circle cx="500" cy="500" r="50" fill="yellow" />
-  
-<!-- orbit -->
-<circle cx="500" cy="500" r="100" fill-opacity="0.0" stroke="white" stroke-wdith="1"/>
 
+<svg height="1000" width="1000">
+
+<polygon points="0,0 0,1000 1000,1000 1000,0" fill="black"/>
+
+
+<!-- sun -->
+
+<circle cx="500" cy="500" r="50" fill="yellow" />
+
+
+
+<!-- orbit -->
+
+<circle cx="500" cy="500" r="100" fill-opacity="0.0" stroke="white" stroke-wdith="1"/>
 <!-- Mercury -->
+
 <circle cx="500" cy="400" r="10" fill="#D50000" />
 
+
+
 <!-- orbit -->
+
 <circle cx="500" cy="500" r="160" fill-opacity="0.0" stroke="white" stroke-wdith="1"/>
 
+
 <!-- venus -->
+
 <circle cx="500" cy="340" r="14" fill="orange" />
 
+
+
 <!-- earth orbit -->
+
 <circle cx="500" cy="500" r="220" fill-opacity="0.0" stroke="white" stroke-wdith="1"/>
 
+
 <!-- earth -->
+
 <circle id="earth" cx="500" cy="280" r="14" fill="url(#linearGrad)" />
+
+
 <radialGradient id="linearGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+
     <stop offset="0%" stop-color="blue" />
+
     <stop offset="100%" stop-color="green" />
-  </radialGradient>
+
+</radialGradient>
+
+
 
 <!-- orbit -->
+
 <circle cx="500" cy="500" r="280" fill-opacity="0.0" stroke="white" stroke-wdith="1"/>
 
+
 <!-- mars -->
+
 <circle cx="500" cy="220" r="10" fill="#FFB300" />
 
+
+
  <!-- orbit -->
+
 <circle cx="500" cy="500" r="350" fill-opacity="0.0" stroke="white" stroke-wdith="1"/>
 
+
 <!-- Jupiter -->
+
 <circle cx="500" cy="150" r="30" fill="#FF8A65" />
+
+
  
 <!-- orbit -->
+
 <circle cx="500" cy="500" r="450" fill-opacity="0.0" stroke="white" stroke-wdith="1"/>
 
+
 <!-- Saturn -->
+
 <circle cx="500" cy="50" r="30" fill="#D7CCC8" />
- 
+
+
 </svg>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js'></script>
+
 
   
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js'></script>
 
-    <script  src="js/index.js"></script>
+
+
+<script>
+
+
+var counter = 0;
+
+
+
+
+function movePlanets(){
+
+
+   counter = counter + 1;
+
+
+   
+var earthX = calculateXPosition(counter, 500, 220);
+
+   var earthY = calculateYPosition(counter, 500, 220);
+
+
+
+   $("#earth").attr("cx", earthX);
+
+   $("#earth").attr("cy", earthY);
+
+
+
+
+
+}
+
+
+
+function calculateXPosition(degrees, sunX, orbitRadius) {
+
+    var velocity = degrees * (Math.PI /180);
+    
+    return sunX + (orbitRadius * Math.cos(velocity));
+
+}
+
+
+
+function calculateYPosition(degrees, sunY, orbitRadius) {
+
+    var velocity = degrees * (Math.PI /180);
+
+    return sunY + (orbitRadius * Math.sin(velocity));
+
+}
+
+
+
+setInterval(movePlanets, 1000);
+</script>
+
+
 
 
 
 
 </body>
+
 
 </html>
