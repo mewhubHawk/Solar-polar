@@ -10,4 +10,6 @@ Reminds you that the planets are:
 
 ## mercury, venus, earth, mars, jupiter, saturn, uranus, neptune and pluto
 
+## Scaling the planets
+
 # Now we need to know how fast they go, so we can scale the planets
