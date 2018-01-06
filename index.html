@@ -116,11 +116,14 @@ var counter = 0;
 
 
 
+var earthCounter = 0;
 
 function movePlanets(){
 
 
    counter = counter + 1;
+   earthCounter = 0.4 * counter;
+   venusCounter = 0.4 * counter;
 
 
    
@@ -138,9 +141,9 @@ var mercuryX = calculateXPosition(counter, 500, 100);
 
 
 
-   var venusX = calculateXPosition(counter, 500, 160);
+   var venusX = calculateXPosition(venusCounter, 500, 160);
 
-   var venusY = calculateYPosition(counter, 500, 160);
+   var venusY = calculateYPosition(venusCounter, 500, 160);
 
 
 
@@ -153,9 +156,9 @@ var mercuryX = calculateXPosition(counter, 500, 100);
 
 
    
-var earthX = calculateXPosition(counter, 500, 220);
+var earthX = calculateXPosition(earthCounter, 500, 220);
 
-   var earthY = calculateYPosition(counter, 500, 220);
+   var earthY = calculateYPosition(earthCounter, 500, 220);
 
 
 
