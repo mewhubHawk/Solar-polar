@@ -32,4 +32,4 @@ Scale by multiplying standard orbit by `number of days in an earth year / number
 
 ## See my awesome planets
 
-![Epic, awesome, incredible, realistic planets](https://mewhubhawk.github.io/Solar-polar/)
+[Epic, awesome, incredible, realistic planets](https://mewhubhawk.github.io/Solar-polar/)
