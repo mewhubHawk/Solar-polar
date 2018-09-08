@@ -2,50 +2,34 @@
 
 <html lang="en" >
 
-
 <head>
 
   <meta charset="UTF-8">
-
   <title>Solar-polar by Katia</title>
-
-
 
 </head>
 
-
-
 <body>
-
 
 <style>
 h1 {
     color: #8E24AA;
 }
 
-
-
 </style>
 
 <h1>hello</h1>
 
-
 <svg height="1000" width="1000">
 
-
 <polygon points="0,0 0,1000 1000,1000 1000,0" fill="url(#HI)"/>
-
 
 <radialGradient id="HI" x1="0%" y1="0%" x2="100%" y2="0%">
 
     <stop offset="0%" stop-color="yellow" />
-
     <stop offset="10%" stop-color="black" />
-
     <stop offset="59%" stop-color="black" />
-
     <stop offset="57%" stop-color="#757575" />
-
     <stop offset="70%" stop-color="black" />
 
 </radialGradient>
@@ -55,13 +39,13 @@ h1 {
 <text  x="10" y="50" fill="url(#H1)" stroke="red" stroke-width="1"
     font-family="Algerian" font-size="40">
        KATIA'S SOLAR BELT </text>
-        
+
 <linearGradient id="H1" x1="0%" y1="0%" x2="100%" y2="0%">
     <stop offset="0%" stop-color="#2196F3" />
     <stop offset="30%" stop-color="#D500F9" />
     <stop offset="100%" stop-color="#2196F3" />
 </linearGradient>
-   
+
 <!-- orbit -->
 
 <circle cx="500" cy="500" r="100" fill-opacity="0.0" stroke="white" stroke-wdith="1"/>
@@ -123,7 +107,7 @@ h1 {
 <circle id="jupiter" cx="500" cy="150" r="30" fill="#FF8A65" />
 
 
- 
+
 <!-- orbit -->
 
 <circle cx="500" cy="500" r="450" fill-opacity="0.0" stroke="white" stroke-wdith="1"/>
@@ -137,7 +121,7 @@ h1 {
 </svg>
 
 
-  
+
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js'></script>
 
 
@@ -166,7 +150,7 @@ function movePlanets(){
    saturnCounter = 0.4 * counter * 365/11000;
 
 
-   
+
 var mercuryX = calculateXPosition(mercuryCounter, 500, 100);
 
    var mercuryY = calculateYPosition(mercuryCounter, 500, 100);
@@ -195,7 +179,7 @@ var mercuryX = calculateXPosition(mercuryCounter, 500, 100);
 
 
 
-   
+
 var earthX = calculateXPosition(earthCounter, 500, 220);
 
    var earthY = calculateYPosition(earthCounter, 500, 220);
@@ -259,7 +243,7 @@ var earthX = calculateXPosition(earthCounter, 500, 220);
 function calculateXPosition(degrees, sunX, orbitRadius) {
 
     var velocity = degrees * (Math.PI /180);
-    
+
     return sunX + (orbitRadius * Math.cos(velocity));
 
 }
