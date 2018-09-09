@@ -1,12 +1,8 @@
 <!DOCTYPE html>
-
 <html lang="en" >
-
 <head>
-
   <meta charset="UTF-8">
   <title>Solar-polar by Katia</title>
-
 </head>
 
 <body>
@@ -15,26 +11,21 @@
 h1 {
     color: #8E24AA;
 }
-
 </style>
 
 <h1>hello</h1>
-
+
 <svg height="1000" width="1000">
 
 <polygon points="0,0 0,1000 1000,1000 1000,0" fill="url(#HI)"/>
 
 <radialGradient id="HI" x1="0%" y1="0%" x2="100%" y2="0%">
-
     <stop offset="0%" stop-color="yellow" />
     <stop offset="10%" stop-color="black" />
     <stop offset="59%" stop-color="black" />
     <stop offset="57%" stop-color="#757575" />
     <stop offset="70%" stop-color="black" />
-
 </radialGradient>
-
-
 
 <text  x="10" y="50" fill="url(#H1)" stroke="red" stroke-width="1"
     font-family="Algerian" font-size="40">
@@ -47,84 +38,50 @@ h1 {
 </linearGradient>
 
 <!-- orbit -->
+<!-- circle cx="500" cy="500" r="100" fill-opacity="0.0" stroke="white" stroke-wdith="1"/ -->
 
-<circle cx="500" cy="500" r="100" fill-opacity="0.0" stroke="white" stroke-wdith="1"/>
 <!-- Mercury -->
-
 <circle id="mercury" cx="500" cy="400" r="10" fill="#D50000" />
 
-
-
 <!-- orbit -->
-
-<circle cx="500" cy="500" r="160" fill-opacity="0.0" stroke="white" stroke-wdith="1"/>
-
+<!-- circle cx="500" cy="500" r="160" fill-opacity="0.0" stroke="white" stroke-wdith="1"/ -->
 
 <!-- venus -->
-
 <circle id="venus" cx="500" cy="340" r="14" fill="orange" />
 
-
-
 <!-- earth orbit -->
-
-<circle cx="500" cy="500" r="220" fill-opacity="0.0" stroke="white" stroke-wdith="1"/>
+<!-- circle cx="500" cy="500" r="220" fill-opacity="0.0" stroke="white" stroke-wdith="1"/ -->
 
 
 <!-- earth -->
-
 <circle id="earth" cx="500" cy="280" r="14" fill="url(#linearGrad)" />
 
-
 <radialGradient id="linearGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-
     <stop offset="0%" stop-color="blue" />
-
     <stop offset="100%" stop-color="green" />
-
 </radialGradient>
 
-
-
 <!-- orbit -->
-
-<circle cx="500" cy="500" r="280" fill-opacity="0.0" stroke="white" stroke-wdith="1"/>
-
+<!-- circle cx="500" cy="500" r="280" fill-opacity="0.0" stroke="white" stroke-wdith="1"/ -->
 
 <!-- mars -->
-
 <circle id="mars" cx="500" cy="220" r="10" fill="#FFB300" />
 
-
-
- <!-- orbit -->
-
-<circle cx="500" cy="500" r="350" fill-opacity="0.0" stroke="white" stroke-wdith="1"/>
-
+<!-- orbit -->
+<!-- circle cx="500" cy="500" r="350" fill-opacity="0.0" stroke="white" stroke-wdith="1"/ -->
 
 <!-- Jupiter -->
-
 <circle id="jupiter" cx="500" cy="150" r="30" fill="#FF8A65" />
 
-
-
 <!-- orbit -->
-
-<circle cx="500" cy="500" r="450" fill-opacity="0.0" stroke="white" stroke-wdith="1"/>
-
+<!-- circle cx="500" cy="500" r="450" fill-opacity="0.0" stroke="white" stroke-wdith="1"/ -->
 
 <!-- Saturn -->
-
 <circle id="saturn" cx="500" cy="50" r="30" fill="#D7CCC8" />
-
 
 </svg>
 
-
-
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js'></script>
-
-
 
 <script>
 var counter = 0;
@@ -135,11 +92,8 @@ var marsCounter = 0;
 var jupiterCounter = 0;
 var saturnCounter = 0;
 
-
-
 function movePlanets(){
-
-
+  
    counter = counter + 1;
    mercuryCounter = 0.4 * counter * 365/88;
    venusCounter = 0.4 * counter * 365/225;
@@ -149,126 +103,55 @@ function movePlanets(){
    jupiterCounter = 0.4 * counter * 365/4300;
    saturnCounter = 0.4 * counter * 365/11000;
 
-
-
-var mercuryX = calculateXPosition(mercuryCounter, 500, 100);
-
+   var mercuryX = calculateXPosition(mercuryCounter, 500, 100);
    var mercuryY = calculateYPosition(mercuryCounter, 500, 100);
 
-
-
    $("#mercury").attr("cx", mercuryX);
-
    $("#mercury").attr("cy", mercuryY);
 
-
-
-
-
    var venusX = calculateXPosition(venusCounter, 500, 160);
-
    var venusY = calculateYPosition(venusCounter, 500, 160);
 
-
-
    $("#venus").attr("cx", venusX);
-
    $("#venus").attr("cy", venusY);
 
-
-
-
-
-
-var earthX = calculateXPosition(earthCounter, 500, 220);
-
+   var earthX = calculateXPosition(earthCounter, 500, 220);
    var earthY = calculateYPosition(earthCounter, 500, 220);
 
-
-
    $("#earth").attr("cx", earthX);
-
    $("#earth").attr("cy", earthY);
-
-
-
-
-
+  
    var marsX = calculateXPosition(marsCounter, 500, 280);
-
    var marsY = calculateYPosition(marsCounter, 500, 280);
 
-
-
    $("#mars").attr("cx", marsX);
-
    $("#mars").attr("cy", marsY);
 
-
-
-
-
    var jupiterX = calculateXPosition(jupiterCounter, 500, 350);
-
    var jupiterY = calculateYPosition(jupiterCounter, 500, 350);
 
-
-
    $("#jupiter").attr("cx", jupiterX);
-
    $("#jupiter").attr("cy", jupiterY);
 
-
-
-
-
    var saturnX = calculateXPosition(saturnCounter, 500, 450);
-
    var saturnY = calculateYPosition(saturnCounter, 500, 450);
 
-
-
    $("#saturn").attr("cx", saturnX);
-
    $("#saturn").attr("cy", saturnY);
-
-
-
-
-
 }
-
-
 
 function calculateXPosition(degrees, sunX, orbitRadius) {
-
     var velocity = degrees * (Math.PI /180);
-
     return sunX + (orbitRadius * Math.cos(velocity));
-
 }
-
-
 
 function calculateYPosition(degrees, sunY, orbitRadius) {
-
     var velocity = degrees * (Math.PI /180);
-
     return sunY + (orbitRadius * Math.sin(velocity));
-
 }
-
-
 
 setInterval(movePlanets, 100);
 </script>
 
-
-
-
-
-
 </body>
-
-
 </html>
