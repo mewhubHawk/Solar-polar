@@ -30,8 +30,8 @@ pluto | 90,500
 
 Scale by multiplying standard orbit by `number of days in an earth year / number of days in a year`
 
-## See my awesome planets
+## See my reprisentation of the planets
 
-[My epic, awesome, incredible, realistic planets](https://mewhubhawk.github.io/Solar-polar/)
+[My planets](https://mewhubhawk.github.io/Solar-polar/)
 
 ![all the things in the solar system](distance-to-alpha-centuri.jpg)
