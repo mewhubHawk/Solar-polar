@@ -20,7 +20,7 @@ Planet | days in a year
 --- | ---: 
 mercury | 88
 venus | 225 
-earth | 365
+earth | 365.1
 mars | 687
 jupiter | 4,300
 saturn | 11,000
