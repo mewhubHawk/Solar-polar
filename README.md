@@ -5,11 +5,12 @@
 ```
 my very easy method, just say: "uckie noodles please"
 ```
-
+# Each first letter is the first letter of a planet it will jog your memory every time
 Reminds you that the planets are:
 ```
 mercury, venus, earth, mars, jupiter, saturn, uranus, neptune and pluto
 ```
+
 ## Scaling the planets
 
 Now we need to know how fast they go, so we can scale the planets
@@ -20,7 +21,7 @@ Planet | days in a year
 --- | ---: 
 mercury | 88
 venus | 225 
-earth | 365.1
+earth | 365.25
 mars | 687
 jupiter | 4,300
 saturn | 11,000
