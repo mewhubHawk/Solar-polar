@@ -15,9 +15,9 @@ mercury, venus, earth, mars, jupiter, saturn, uranus, neptune and pluto
 
 Now we need to know how fast they go, so we can scale the planets
 
-## days in a year
+## Days in a year
 
-Planet | days in a year
+Planet | Days in a year
 --- | ---: 
 mercury | 88
 venus | 225 
@@ -28,6 +28,8 @@ saturn | 11,000
 uranus | 31,000
 neptune | 60,200
 pluto | 90,500
+
+## The definition of a year is how long it takes to get round Sol
 
 Scale by multiplying standard orbit by `number of days in an earth year / number of days in a year`
 
