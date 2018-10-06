@@ -59,7 +59,7 @@ light whith shorter wavelengths, in the green to violet spectrum
 by the atmosphere.
 The effect of this is to make the sun seem yellow!
 
-# Is the Earth perfectly spherical?
+## Is the Earth perfectly spherical?
 
 it might have been once but not now because the Earth is changing
 shape due to constant movement of the contental plates though the 
