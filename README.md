@@ -6,14 +6,14 @@
 my very easy method, just say: "uckie noodles please"
 ```
 # Each first letter is the first letter of a planet it will jog your memory every time
-Reminds you that the planets are:
+Reminds you that the (main) planets are:
 ```
 mercury, venus, earth, mars, jupiter, saturn, uranus, neptune and pluto
 ```
 
 ## Scaling the planets
 
-Now we need to know how fast they go, so we can scale the planets
+Now for the code project we need to know how fast they go, so we can scale the planets
 
 ## Days in a year
 
@@ -39,8 +39,9 @@ Scale by multiplying standard orbit by `number of days in an earth year / number
 
 ![all the things in the solar system](distance-to-alpha-centuri.jpg)
 
+# FACTS!
 
-#What is the true colour of the sun?
+## What is the true colour of the sun?
 
 If you ask someone who knows a bit about astronomy will tell you that the
 sun belongs to a catergory of stars known as 'Yellow Dwarfs' so it's ok to 
@@ -48,7 +49,7 @@ assume it is yellow?
 
 No, like all yellow dwarf stars, the sun is COMPLETELY white.
 
-## So why do human eyes see it as yellow?
+### So why do human eyes see it as yellow?
 
 it's because of earth's atmosphere, light that has a long 
 wavelength in the yellow and red part of the spectrum passes 
