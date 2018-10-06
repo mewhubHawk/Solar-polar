@@ -38,3 +38,31 @@ Scale by multiplying standard orbit by `number of days in an earth year / number
 [My planets](https://mewhubhawk.github.io/Solar-polar/)
 
 ![all the things in the solar system](distance-to-alpha-centuri.jpg)
+
+
+#What is the true colour of the sun?
+
+If you ask someone who knows a bit about astronomy will tell you that the
+sun belongs to a catergory of stars known as 'Yellow Dwarfs' so it's ok to 
+assume it is yellow?
+
+No, like all yellow dwarf stars, the sun is COMPLETELY white.
+
+## So why do human eyes see it as yellow?
+
+it's because of earth's atmosphere, light that has a long 
+wavelength in the yellow and red part of the spectrum passes 
+through the atmosphere best of all.
+light whith shorter wavelengths, in the green to violet spectrum 
+(which the sun mostly emits) gets dissipated to a greater degree
+by the atmosphere.
+The effect of this is to make the sun seem yellow!
+
+# Is the Earth perfectly spherical?
+
+it might have been once but not now because the Earth is changing
+shape due to constant movement of the contental plates though the 
+rate of it actually moving is tiny. However this still has made an 
+effect on the shape of the Earth which is far from perfectly round.
+
+
