@@ -42,6 +42,12 @@ Scale by multiplying the standard orbit of one Earth year by `number of days in 
 You can see my code project by clicking here:
 [Solar Polar](https://mewhubhawk.github.io/Solar-polar/)
 
+My dad showed my project to Japanese, American and German engineers at the Stellarium when he when to the International Conference for Software Engineering 2018 in Gothenburg.
+
+![Solar-polar at the Stellarium in Gothenburg](Screen Shot 2018-10-07 at 16.07.53.jpg)
+
+
+The solar system is bigger than just the planets. The picture shows the whole solar system out to the next nearest star which is called Alpha Centuri.
 ![all the things in the solar system](distance-to-alpha-centuri.jpg)
 
 # FACTS!
