@@ -1,41 +1,46 @@
 # Solar-polar
 
-## How to remember the planets:
+I called my code project 'Solar-polar' because it rhymed.
 
+The Solar System I made in jsfiddle looks 'down' at the planets as they spin around the Sun due to Sol's gravity. I have put the planets in order and made the orbits so that the time to go round the Sun matches the length of each planet's year.
+
+I have come to realise that the part 'polar' in the name I made up can also mean looking along the axis of spin.
+
+## How to remember the planets
 ```
 my very easy method, just say: "uckie noodles please"
 ```
-# Each first letter is the first letter of a planet it will jog your memory every time
-Reminds you that the (main) planets are:
+Each first letter is the first letter of a planet it will jog your memory every time and reminds you that the (main) planets are:
 ```
-mercury, venus, earth, mars, jupiter, saturn, uranus, neptune and pluto
+Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune and Pluto
 ```
 
-## Scaling the planets
+## Scaling the planets' years
 
 Now for the code project we need to know how fast they go, so we can scale the planets
 
 ## Days in a year
 
 Planet | Days in a year
---- | ---: 
-mercury | 88
-venus | 225 
-earth | 365.25
-mars | 687
-jupiter | 4,300
-saturn | 11,000
-uranus | 31,000
-neptune | 60,200
-pluto | 90,500
+--- | ---:
+Mercury | 88
+Venus | 225
+Earth | 365.25
+Mars | 687
+Jupiter | 4,300
+Saturn | 11,000
+Uranus | 31,000
+Neptune | 60,200
+Pluto | 90,500
 
 ## The definition of a year is how long it takes to get round Sol
 
-Scale by multiplying standard orbit by `number of days in an earth year / number of days in a year`
+Scale by multiplying the standard orbit of one Earth year by `number of days in an earth year / number of days in a year`
 
-## See my reprisentation of the planets
+## See my representation of the planets
 
-[My planets](https://mewhubhawk.github.io/Solar-polar/)
+You can see my code project by clicking here:
+[Solar Polar](https://mewhubhawk.github.io/Solar-polar/)
 
 ![all the things in the solar system](distance-to-alpha-centuri.jpg)
 
@@ -43,27 +48,25 @@ Scale by multiplying standard orbit by `number of days in an earth year / number
 
 ## What is the true colour of the sun?
 
-If you ask someone who knows a bit about astronomy will tell you that the
-sun belongs to a catergory of stars known as 'Yellow Dwarfs' so it's ok to 
+If you ask someone who knows a bit about stars they will tell you that the
+Sun belongs to a category of stars known as 'Yellow Dwarfs' so it's ok to
 assume it is yellow?
 
 No, like all yellow dwarf stars, the sun is COMPLETELY white.
 
-### So why do human eyes see it as yellow?
+## So why do human eyes see it as yellow?
 
-it's because of earth's atmosphere, light that has a long 
-wavelength in the yellow and red part of the spectrum passes 
-through the atmosphere best of all.
-light whith shorter wavelengths, in the green to violet spectrum 
-(which the sun mostly emits) gets dissipated to a greater degree
-by the atmosphere.
-The effect of this is to make the sun seem yellow!
+The white light of the sun is scattered by the Earth's atmosphere.
+
+Light that has a long wavelength in the yellow and red part of the spectrum passes through the atmosphere best of all. Light with shorter wavelengths, in the green to violet spectrum (which the sun mostly sends out) gets scattered more by the atmosphere.
+
+This makes the Sun seem yellow and the sky look blue!
 
 ## Is the Earth perfectly spherical?
 
-it might have been once but not now because the Earth is changing
-shape due to constant movement of the contental plates though the 
-rate of it actually moving is tiny. However this still has made an 
-effect on the shape of the Earth which is far from perfectly round.
+If you ask someone who knows a bit about geometry they will tell you that the Earth is an oblate spheroid, which is a squashed sphere.
 
+The Earth is changing shape due to constant movement of the continental plates though the rate of it actually moving is tiny. However this still has an
+effect on the shape of the Earth which is not perfectly round.
 
+This makes the Earth
