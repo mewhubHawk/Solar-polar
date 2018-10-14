@@ -26,9 +26,9 @@ Planet | Days in a year | Earth years
 Mercury | 88 | 0.24
 Venus | 225 | 0.6
 Earth | 365.25 | 1
-Mars | 687 | 1.9
-Jupiter | 4,300 | 11.8
-Saturn | 11,000 | 30.1
+Mars | 687 | 2
+Jupiter | 4,300 | 12
+Saturn | 11,000 | 30
 Uranus | 31,000 | 85
 Neptune | 60,200 | 165
 Pluto | 90,500 | 248
