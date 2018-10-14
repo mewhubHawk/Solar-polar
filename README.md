@@ -2,7 +2,7 @@
 
 I called my code project 'Solar-polar' because it rhymed.
 
-The Solar System I made in jsfiddle looks 'down' at the planets as they spin around the Sun due to Sol's gravity. I have put the planets in order and made the orbits so that the time to go round the Sun matches the length of each planet's year.
+The Solar System I made in jsfiddle looks 'down' at the planets as they spin around the Sun due to Sol's gravity. I put the planets in order and made the orbits so that the time to go round the Sun matches the length of each planet's year.
 
 I have come to realise that the part 'polar' in the name I made up can also mean looking along the axis of spin.
 
@@ -21,37 +21,29 @@ Now for the code project we need to know how fast they go, so we can scale the p
 
 ## Days in a year
 
-Planet | Days in a year
---- | ---:
-Mercury | 88
-Venus | 225
-Earth | 365.25
-Mars | 687
-Jupiter | 4,300
-Saturn | 11,000
-Uranus | 31,000
-Neptune | 60,200
-Pluto | 90,500
+Planet | Days in a year | Earth years
+--- | --- | ---:
+Mercury | 88 | 0.24
+Venus | 225 | 0.6
+Earth | 365.25 | 1
+Mars | 687 | 1.9
+Jupiter | 4,300 | 11.8
+Saturn | 11,000 | 30.1
+Uranus | 31,000 | 85
+Neptune | 60,200 | 165
+Pluto | 90,500 | 248
 
-## The definition of a year is how long it takes to get round Sol
+## A year is how long it takes to get round Sol
 
 Scale by multiplying the standard orbit of one Earth year by `number of days in an earth year / number of days in a year`
 
 ## See my representation of the planets
 
-You can see my code project by clicking here:
-[Solar Polar](https://mewhubhawk.github.io/Solar-polar/)
+You can see my Solar-polar code project by [clicking here.](https://mewhubhawk.github.io/Solar-polar/)
 
-My dad showed my project to Japanese, American and German engineers at the Stellarium when he when to the International Conference for Software Engineering 2018 in Gothenburg.
+My dad showed my project to Japanese, American and German engineers at the Stellarium in Gothenburg when he when to the International Conference for Software Engineering 2018. The flew around the Solar System to show it as a polar view like my project!
 
-![Solar-polar at the Stellarium in Gothenburg](solar-polar-stellarium.png)
-
-These pictures from the Stellarium show:
-i) the magnetosphere protecting the Earth from solar radiation being pulled by the moon
-ii) the satellite positioning satellites
-iii) the international space station
-
-![Interesting things from the Stellarium in Gothenburg](solar-polar-things.png)
+![Solar-polar at the Stellarium in Gothenburg](Screen Shot 2018-10-07 at 16.07.53.png)
 
 
 The solar system is bigger than just the planets. The picture shows the whole solar system out to the next nearest star which is called Alpha Centuri.
@@ -79,7 +71,6 @@ This makes the Sun seem yellow and the sky look blue!
 
 If you ask someone who knows a bit about geometry they will tell you that the Earth is an oblate spheroid, which is a squashed sphere.
 
-The Earth is changing shape due to constant movement of the continental plates though the rate of it actually moving is tiny. However this still has an
-effect on the shape of the Earth which is not perfectly round.
+The Earth is changing shape due to constant movement of the continental plates though the rate of it actually moving is tiny. However this still has an effect on the shape of the Earth which is not perfectly round.
 
-This makes the Earth
+This makes the Earth a 'geoid' or 'Earth-shaped'!
