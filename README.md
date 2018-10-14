@@ -44,7 +44,7 @@ You can see my code project by clicking here:
 
 My dad showed my project to Japanese, American and German engineers at the Stellarium when he when to the International Conference for Software Engineering 2018 in Gothenburg.
 
-![Solar-polar at the Stellarium in Gothenburg](Screen Shot 2018-10-07 at 16.07.53.png)
+![Solar-polar at the Stellarium in Gothenburg]("Screen Shot 2018-10-07 at 16.07.53.png")
 
 
 The solar system is bigger than just the planets. The picture shows the whole solar system out to the next nearest star which is called Alpha Centuri.
