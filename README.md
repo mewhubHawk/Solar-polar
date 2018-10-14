@@ -21,7 +21,7 @@ Now for the code project we need to know how fast they go, so we can scale the p
 
 ## Days in a year
 
-Planet | Days in a year | Earth years
+Planet | Days in a year |(approx) Earth years
 --- | --- | ---:
 Mercury | 88 | 0.24
 Venus | 225 | 0.6
