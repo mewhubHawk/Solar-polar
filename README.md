@@ -41,14 +41,14 @@ Scale by multiplying the standard orbit of one Earth year by `number of days in 
 
 You can see my Solar-polar code project by [clicking here.](https://mewhubhawk.github.io/Solar-polar/)
 
-My dad showed my project to Japanese, American and German engineers at the Stellarium in Gothenburg when he when to the International Conference for Software Engineering 2018. The flew around the Solar System to show it as a polar view like my project!
+My dad showed my project to Japanese, American and German engineers at the Stellarium in Gothenburg when he when to the International Conference for Software Engineering 2018. They flew around the Solar System to show it as a polar view like my project!
 
 ![Solar-polar at the Stellarium in Gothenburg](solar-polar-stellarium.png)
 
  These pictures from the Stellarium show:
-i) the magnetosphere protecting the Earth from solar radiation being pulled by the moon
-ii) the satellite positioning satellites
-iii) the international space station
+I) the magnetosphere protecting the Earth from solar radiation being pulled by the moon
+II) the satellite positioning satellites
+III) the international space station
  ![Interesting things from the Stellarium in Gothenburg](solar-polar-things.png)
 
 The solar system is bigger than just the planets. The picture shows the whole solar system out to the next nearest star which is called Alpha Centuri.
@@ -78,4 +78,9 @@ If you ask someone who knows a bit about geometry they will tell you that the Ea
 
 The Earth is changing shape due to constant movement of the continental plates though the rate of it actually moving is tiny. However this still has an effect on the shape of the Earth which is not perfectly round.
 
-This makes the Earth a 'geoid' or 'Earth-shaped'!
+This makes the Earth a 'Geoid' or 'Earth-shaped'!
+
+# How big is the Universe?
+
+Nobody actually knows but what we do know is that
+the Universe is growing by the speed of light.
