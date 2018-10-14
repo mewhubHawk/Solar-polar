@@ -44,7 +44,14 @@ You can see my code project by clicking here:
 
 My dad showed my project to Japanese, American and German engineers at the Stellarium when he when to the International Conference for Software Engineering 2018 in Gothenburg.
 
-![Solar-polar at the Stellarium in Gothenburg](ScreenShot2018-10-07at160753.png)
+![Solar-polar at the Stellarium in Gothenburg](solar-polar-stellarium.png)
+
+These pictures from the Stellarium show:
+i) the magnetosphere protecting the Earth from solar radiation being pulled by the moon
+ii) the satellite positioning satellites
+iii) the international space station
+
+![Interesting things from the Stellarium in Gothenburg](solar-polar-things.png)
 
 
 The solar system is bigger than just the planets. The picture shows the whole solar system out to the next nearest star which is called Alpha Centuri.
