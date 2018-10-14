@@ -43,8 +43,13 @@ You can see my Solar-polar code project by [clicking here.](https://mewhubhawk.g
 
 My dad showed my project to Japanese, American and German engineers at the Stellarium in Gothenburg when he when to the International Conference for Software Engineering 2018. The flew around the Solar System to show it as a polar view like my project!
 
-![Solar-polar at the Stellarium in Gothenburg](Screen Shot 2018-10-07 at 16.07.53.png)
+![Solar-polar at the Stellarium in Gothenburg](solar-polar-stellarium.png)
 
+ These pictures from the Stellarium show:
+i) the magnetosphere protecting the Earth from solar radiation being pulled by the moon
+ii) the satellite positioning satellites
+iii) the international space station
+ ![Interesting things from the Stellarium in Gothenburg](solar-polar-things.png)
 
 The solar system is bigger than just the planets. The picture shows the whole solar system out to the next nearest star which is called Alpha Centuri.
 ![all the things in the solar system](distance-to-alpha-centuri.jpg)
